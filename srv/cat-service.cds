@@ -1,7 +1,6 @@
 using {feedback as db} from '../db/schema';
 
 service feedBackService {
-
     entity feedback as projection on db.feedBack;
 
     action submitFeedback(name: String(260),
@@ -12,5 +11,4 @@ service feedBackService {
         totalfeedback : Integer;
         avgRating     : Decimal(3, 2)
     }
-
 }
