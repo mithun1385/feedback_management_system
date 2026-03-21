@@ -1,3 +1,11 @@
 ###
 
-GET http://localhost:4004/odata/
+GET http://localhost:4004/odata/v4/feed-back/feedback
+
+###
+POST  http://localhost:4004/odata/v4/feed-back/getAnalytics
+Content-Type: application/json
+
+{
+
+}
